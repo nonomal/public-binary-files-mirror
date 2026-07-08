@@ -31,6 +31,14 @@ wget https://files.m.daocloud.io/get.helm.sh/helm-v3.9.1-linux-amd64.tar.gz
 
 ## 最佳实践
 
+## huggingface 加速
+
+当前支持 [XET](https://huggingface.co/join/xet), 实际测试下载大小可缩小 10~20%
+
+``` bash
+HF_ENDPOINT=https://hf.m.daocloud.io/
+```
+
 ## 作为系统源
 
 先安装和更新 CA 证书, 要不然可能会报证书验证失败.
